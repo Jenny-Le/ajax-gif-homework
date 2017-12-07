@@ -1,5 +1,7 @@
     $(document).ready(function() {
         $("button").on("click", function() {
+            
+
             // "this" is the on click event
             var topic = $(this).attr("data");
             //quert and API url
