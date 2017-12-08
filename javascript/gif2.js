@@ -20,7 +20,8 @@
                 // response.data is the info you get from the API
                 var results = response.data
 
-                for (var i = 0; i < results.length; i++) { //creating a for loop for my gifs
+                for (var i = 0; i < results.length; i++) {
+                    // creating a for loop for my gifs
 
                     var rating = results[i].rating;
                     console.log(rating);
